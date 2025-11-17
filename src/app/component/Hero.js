@@ -1,6 +1,7 @@
 
 import { FaPlus } from "react-icons/fa";
 import Presale from "./Presale.js";
+import Image from "next/image";
 // import i1 from "../assets/newimage/i1.jpg";
 
 

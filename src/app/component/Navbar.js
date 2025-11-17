@@ -38,12 +38,12 @@ export default function Navbar() {
 {/* Logo */}
 <Link href="/" onClick={closeMenu}>
   <div className="flex items-center space-x-3 rtl:space-x-reverse">
-    <Image
-      src="/logo/blockailogo.png" 
-      alt="ameri-coin"
-      width={70} 
-      height={70} 
-      className="w-[3rem] sm:w-[7rem] h-auto"
+   
+  <Image
+  src="/logo/blockailogo.png"
+      alt="my logo"
+      width={100}
+      height={100}
       loading="lazy"
     />
   </div>

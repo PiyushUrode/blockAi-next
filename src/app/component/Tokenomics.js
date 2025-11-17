@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 
 const S5Tokenomics = () => {
   return (
@@ -14,11 +14,15 @@ const S5Tokenomics = () => {
 
         {/* Image Section */}
         <div className="flex justify-center items-center">
-          <img
-            src= "./tokenomics/token1.png"
-            alt="Tokenomics"
-            className="w-[220px] sm:w-[280px] md:w-[450px] lg:w-[600px] h-auto object-contain transition-transform duration-300 hover:scale-105"
-          />
+          <Image
+  src="/tokenomics/token1.png"
+  alt="Tokenomics"
+  width={600}
+  height={400}
+  className="w-[220px] sm:w-[280px] md:w-[450px] lg:w-[600px] h-auto object-contain transition-transform duration-300 hover:scale-105"
+  priority
+/>
+
         </div>
       </div>
     </section>

@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 
 const S6Roadmap = () => {
   
